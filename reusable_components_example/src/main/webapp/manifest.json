@@ -8,7 +8,10 @@
 			"version": "1.0.0"
 		},
 		"title": "{{appTitle}}",
-		"description": "{{appDescription}}"
+		"description": "{{appDescription}}",
+		"embeds": [
+		  "fruits"
+		]
 	},
 	"sap.ui": {
 		"technology": "UI5",
@@ -22,6 +25,19 @@
 		}
 	},
 	"sap.ui5": {
+		"resourceRoots": {
+		  "com.examples.ui5.fruits": "./fruits/"
+		},
+		
+	    "componentUsages": {
+	      "fruits_comp": {
+	      	"name": "com.examples.ui5.fruits",
+	      	"settings": {},
+			"componentData": null,
+	      	"lazy": false
+	      }
+	    },
+	    
 		"rootView": {
 			"viewName": "com.examples.ui5.nested.view.App",
 			"type": "XML",
@@ -37,14 +53,6 @@
 			}
 		},
 		
-	    "componentUsages": {
-	      "fruits_comp": {
-	      	"name": "com.examples.ui5.fruits",
-	      	"settings": {},
-			"componentData": null,
-	      	"lazy": false
-	      }
-	    },
 		"contentDensities": {
 			"compact": true,
 			"cozy": true

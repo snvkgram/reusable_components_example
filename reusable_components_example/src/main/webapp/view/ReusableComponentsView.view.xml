@@ -11,12 +11,12 @@
 			<Text text="Veggies - to be taken from another component" />
 		</content>
 	</Panel>
-	<!-- <core:ComponentContainer id="containerForChildComponent" 
+	<core:ComponentContainer id="containerForChildComponent" 
 						  autoPrefixId="true"
 						  usage="fruits_comp"
 						  settings="{id: 'fruitsComponent'}"
 						  manifest="true"
-							async="true" />	 -->	
+							async="true" />		
 
 </VBox>
 </mvc:View>	

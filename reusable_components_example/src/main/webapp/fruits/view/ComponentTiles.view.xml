@@ -7,7 +7,7 @@
 	xmlns:mvc="sap.ui.core.mvc">
 	<Panel expanded="true" headerText="Fruits">
 		<content>	
-			<Text text="Delicious (not from model): {fruits_jsonmodel>/name}" />
+			<Text text="Delicious (not from model): {fruists>/name}" />
 		</content>
 	</Panel>
 </mvc:View>	
