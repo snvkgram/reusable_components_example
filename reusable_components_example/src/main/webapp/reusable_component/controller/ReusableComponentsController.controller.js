@@ -19,6 +19,7 @@ sap.ui.define([
 		onInit : function () {
 			//var comp_fruits = this.getOwnerComponent().getReuseComponent( "fruits_comp", {} );
 			//this.getView().byId("nested_root_element").addItem( comp_fruits.getRootControl() );
+			
 		},
 		
 		onPress_component_ui5: function(oEvt){

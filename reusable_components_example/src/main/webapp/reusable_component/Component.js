@@ -24,22 +24,15 @@ sap.ui.define([
 		},
 		
 		getReuseComponent: function(compName, compData) {
-			var oComponentPromise;
+			var oComponent;
 			
-			oComponentPromise = this.createComponent({
+			oComponent = this.createComponent({
 				  usage: compName,
 				  settings: {},
 				  componentData: compData,
 				  async: false
 				});
-			return oComponentPromise;
-			
-			
-			/*oComponentPromise = this.createComponent( compName ).then(function(oComponent) {
-				  oComponent.getRootControl();
-				}).catch(function(oError) {
-				  Log.error(oError);
-				});*/
+			return oComponent;
 		}
 	});
 });
