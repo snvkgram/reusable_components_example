@@ -1,0 +1,18 @@
+<mvc:View
+	controllerName="com.examples.ui5.fruits.controller.ComponentTiles"
+	displayBlock="true"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+<VBox>
+	<!-- <Text class="sapUiTinyMarginBegin sapUiTinyMarginTop" text="Generate application functional code on the fly. If you know what you want, we know how to realize that in minutes!!" /> -->
+	<HBox>
+		<Panel expanded="true" headerText="Fruits" width="230px" class="sapUiTinyMarginEnd">
+			<content>	
+				<Text text="{/name}" />
+			</content>
+		</Panel>
+	</HBox>	
+</VBox>
+</mvc:View>	

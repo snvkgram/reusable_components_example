@@ -1,0 +1,17 @@
+[
+		{
+			"name": "Oranges",
+			"type": "Seasonal",
+			"desc": "Delicious sweet and sour"
+		},
+		{
+			"name":"Apples",
+			"type": "Round the year",
+			"desc": "Shimla Apples"
+		},
+		{
+			"name": "Strawberries",
+			"type": "Seasonal",
+			"desc": "Super delicious"
+		}
+	]

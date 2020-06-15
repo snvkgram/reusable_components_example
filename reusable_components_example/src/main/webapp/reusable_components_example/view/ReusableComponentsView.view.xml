@@ -1,0 +1,18 @@
+<mvc:View
+	controllerName="com.examples.ui5.nested.controller.ReusableComponentsController"
+	displayBlock="true"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+<VBox>
+	<!-- <Text class="sapUiTinyMarginBegin sapUiTinyMarginTop" text="Generate application functional code on the fly. If you know what you want, we know how to realize that in minutes!!" /> -->
+	<HBox id="nested_root_element">
+		<!-- <Panel expanded="true" headerText="Fruits and Vegetables from different Components" width="230px" class="sapUiTinyMarginEnd">
+			<content>	
+				<Text text="{/infrastructure/0/name}" />
+			</content>
+		</Panel> -->
+	</HBox>	
+</VBox>
+</mvc:View>	

@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="com.examples.ui5.fruits.controller.App"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+		<App id="app" class="sapUiSizeCompact">
+			<pages>
+				<Page title="{i18n>componentsPageTitle}"> <!-- showHeader="false" -->
+					<content>
+						<mvc:XMLView viewName="com.examples.ui5.fruits.view.ComponentTiles" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
