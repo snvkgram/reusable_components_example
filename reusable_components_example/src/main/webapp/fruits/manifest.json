@@ -48,7 +48,7 @@
 					"bundleName": "com.examples.ui5.fruits.i18n.i18n"
 				}
 			},
-			"": {
+			"fruits_jsonmodel": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "appdata/app-config.json"
 			}
