@@ -6,9 +6,9 @@
 	<Shell>
 		<App id="app" class="sapUiSizeCompact">
 			<pages>
-				<Page title="{i18n>componentsPageTitle}"> <!-- showHeader="false" -->
+				<Page> <!-- title="{i18n>componentsPageTitle}" showHeader="false" -->
 					<content>
-						<mvc:XMLView viewName="com.examples.ui5.fruits.view.ComponentTiles" />
+						<mvc:XMLView viewName="com.examples.ui5.fruits.view.FruitsView" />
 					</content>
 				</Page>
 			</pages>

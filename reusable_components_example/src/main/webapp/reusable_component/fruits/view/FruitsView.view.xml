@@ -1,0 +1,14 @@
+<mvc:View
+	controllerName="com.examples.ui5.fruits.controller.FruitsController"
+	displayBlock="true"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Panel expanded="true" headerText="Fruits Component">
+		<content>	
+			<Text text="Delicious!! from model--> {fruists>/name}" />
+			<Input id="quantity" value="" placeholder="Quantity coming from upstream!" />
+		</content>
+	</Panel>
+</mvc:View>	

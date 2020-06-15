@@ -6,11 +6,14 @@
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
 <VBox id="nested_root_element">
-	<Panel expanded="true" headerText="Fruits and Veggies">
+	
+	<Panel expanded="true" headerText="Vegetables; Leafy, Root, etc. (Hard Coded data)">
 		<content>	
 			<Text text="Veggies - to be taken from another component" />
+			<Input value="" placeholder="quantity" />
 		</content>
 	</Panel>
+	
 	<core:ComponentContainer id="containerForChildComponent" 
 						  autoPrefixId="true"
 						  usage="fruits_comp"
