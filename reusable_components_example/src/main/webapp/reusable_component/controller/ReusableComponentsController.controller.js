@@ -17,9 +17,9 @@ sap.ui.define([
 		 *  Hook for initializing the controller
 		 */
 		onInit : function () {
-			//var compData = {quantity: 24};
-			//var comp_fruits = this.getOwnerComponent().getReuseComponent( "fruits_comp", compData );
-			//this.getView().byId("nested_root_element").addItem( comp_fruits.getRootControl() );
+			var compData = {quantity: 24};
+			var comp_fruits = this.getOwnerComponent().getReuseComponent( "fruits_comp", compData );
+			this.getView().byId("nested_root_element").addItem( comp_fruits.getRootControl() );
 			
 		},
 		
